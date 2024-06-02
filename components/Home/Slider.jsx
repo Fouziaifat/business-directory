@@ -5,6 +5,7 @@ import {  collection,   getDocs, query } from 'firebase/firestore';
 
 export default function Slider() {
 
+
     const [sliderList,setSliderList]=useState([]);
 
     useEffect(() => {
@@ -41,7 +42,8 @@ export default function Slider() {
                 width:300,
                 height:150,
                 borderRadius:15,
-                marginRight:15
+                marginRight:15,
+                marginLeft:20
                 
             }}
             />
